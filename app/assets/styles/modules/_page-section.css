@@ -2,7 +2,7 @@
     padding: 1.2rem 0;
 
     @mixin at778 {
-        padding: 4.5rem 0;
+        padding: 2.5rem 0;
     }
 
     &--no-b-padding-until-medium {
@@ -20,6 +20,7 @@
             padding-bottom: 4.5rem;
         }
     }
+/*
 
     &--blue {
         background-color: $mainBlue;
@@ -42,4 +43,5 @@
             }
         }
     }
+*/
 }

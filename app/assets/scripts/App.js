@@ -5,6 +5,8 @@ import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
 import Responsive from './modules/Responsive';
 import Modal from './modules/Modal';
+import Disclaimer from './modules/Disclaimer';
+import HeroSlider from './modules/HeroSlider';
 import SlideOnScroll from './modules/SlideOnScroll';
 import SlideOnScrollLeft from './modules/SlideOnScrollLeft';
 
@@ -14,5 +16,7 @@ new RevealOnScroll($(".feature-item"), "85%");
 new RevealOnScroll($(".testimonial"), "60%");
 var stickyheader = new StickyHeader();
 var modal = new Modal();
+var disclaimer = new Disclaimer();
+var heroSlider = new HeroSlider();
 new SlideOnScroll($(".slideIn"), "75%"); 
-new SlideOnScrollLeft($(".slideInLeft"), "75%");
+new SlideOnScrollLeft($(".slideInLeft"), "75%");   

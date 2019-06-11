@@ -16,11 +16,14 @@
 
         &--dark {
 /*            background-color: rgba(23, 51, 72, .85)*/
-            background-color: rgba(255, 255, 255, .85);
+/*            background-color: rgba(255, 255, 255, .85);*/
+             background-color: rgba($mainBlue, 0.6);
+/*
             
             & li a{
                 color: $mainBlue;
             }
+*/
                 
         }
     }
@@ -143,4 +146,10 @@
             transform: scale(1);
         }
     }
+}
+/* Temporary styles remove later */
+.icon-head{
+    width: 110px;
+    height:110px;
+    background-size: 150%;
 }
